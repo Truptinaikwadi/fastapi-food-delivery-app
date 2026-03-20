@@ -74,7 +74,6 @@ pip install fastapi uvicorn
 
 5. Run the server:
 
-
 uvicorn main:app --reload
 
 
@@ -113,35 +112,9 @@ uvicorn main:app --reload
 - `DELETE /cart/{item_id}` → Remove item  
 - `POST /cart/checkout` → Checkout  
 
-##  Sample Request (Place Order)
-
-```json
-{
-  "customer_name": "John Doe",
-  "item_id": 1,
-  "quantity": 2,
-  "delivery_address": "Pune, Maharashtra",
-  "order_type": "delivery"
-}
-
-## Project Screenshots
-  Feature	Preview
- Home API	
-
- Menu API	
-
- Order System	
-
- Cart System	
-
-## Development Environment
-
-Editor: VS Code
-
-Python Version: 3.14
 
 
-## Author
+##  Author
 
 Trupti Naikwadi  
 
